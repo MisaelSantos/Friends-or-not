@@ -9,9 +9,8 @@ body {
     height: 600px;
 }
 
-.divForm {
-    height: 400px;
-    width: 300px;
+.divEmotion img {
+    width: 350px;
 }
 
 form {
@@ -19,6 +18,51 @@ form {
     flex-direction: column;
 }
 
+.divForm {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 label {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 19px;
+    letter-spacing: 3.4px;
+    word-spacing: 0px;
     color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4px;
+    text-shadow: 2px 2px rgb(158, 34, 34);
+}
+
+form textarea {
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+}
+
+button {
+    margin-top: 5px;
+    width: 100%;
+    height: 10%;
+    background: red;
+    border: 0;
+    border-radius: 8px;
+    color: #FFF;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 60px;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(80%);
 }
