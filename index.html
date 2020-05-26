@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -17,10 +19,13 @@
             </div>
             <div class="divForm">
                 <form>
-                    <label for="">Número do crush</label>
-                    <input type="" placeholder="(DDD) 0 0000-0000">
-                    <label for="">Coração ou copiado?</label>
-                    <textarea style="resize: none" name="" id="" cols="30" rows="10" placeholder="Escreva seus desejos"></textarea>
+                    <label for="">Nome do crush</label>
+                    <input class="name" type="text" placeholder="Romeu ou Julieta">
+                    <label for="">Número do crush?</label>
+                    <input class="number" type="" placeholder="(DDD) 0 0000-0000">
+                    <label for="">O que seu crush gosta de comer?</label>
+                    <input class="food" type="text" placeholder="Arroz com pequi">
+                    <!--<textarea style="resize: none" name="" id="" cols="30" rows="10" placeholder="Escreva seus desejos"></textarea>-->
                     <button>GERAR</button>
                 </form>
             </div>
