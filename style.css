@@ -1,5 +1,6 @@
 body {
-    background-color: #1D1F21;
+    background-color: #787878;
+    background-image: url('img/stars.gif');
 }
 
 .Container {
@@ -10,7 +11,8 @@ body {
 }
 
 .divEmotion img {
-    width: 350px;
+    width: 370px;
+    height: 200px;
 }
 
 form {
@@ -27,10 +29,10 @@ form {
 
 label {
     font-family: Impact, Charcoal, sans-serif;
-    font-size: 19px;
+    font-size: 18px;
     letter-spacing: 3.4px;
     word-spacing: 0px;
-    color: white;
+    color: #FF7200;
     font-weight: 400;
     font-style: normal;
     font-variant: small-caps;
@@ -38,13 +40,10 @@ label {
     text-align: center;
     margin: 4px;
     text-shadow: 2px 2px rgb(158, 34, 34);
-}
-
-form textarea {
-    color: #333;
-    border: 1px solid #dcdce6;
-    border-radius: 8px;
-    padding: 16px 24px;
+    -webkit-text-stroke-width: 0.5px;
+    /* largura da borda */
+    -webkit-text-stroke-color: #000;
+    /* cor da borda */
 }
 
 button {
