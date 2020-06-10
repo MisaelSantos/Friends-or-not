@@ -1,7 +1,7 @@
 # Friends or not :heartpulse:
 
 
-- Chame a pessoa para sair com essa plataforma que gera um texto infalível ;D
+- Chame a pessoa para sair com essa plataforma que gera um texto infalível para Whatsapp ;D
 
 - Clique na imagem(video demonstrativo) :D
 
